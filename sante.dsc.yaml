@@ -9,3 +9,4 @@ properties:
       settings:
         id: Oxance.CryptolibCPS.5.2.2
         source: oxance
+  configurationVersion: 0.1.0

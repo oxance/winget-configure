@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=https://aka.ms/configuration-dsc-schema/0.2
+
 properties:
-  configurationVersion: 0.2.0
   resources:
-    - resource: Microsoft.WinGet.DSC/WinGetPackage
-      id: CryptolibCPS
-      directives:
-        description: Install CryptolibCPS 
-        allowPrerelease: true
-      settings:
-        id: Oxance.CryptolibCPS
-        source: oxance
+  - settings:
+      id: Oxance.CryptolibCPS
+      source: oxance
+    resource: Microsoft.WinGet.DSC/WinGetPackage
+    directives:
+      allowPrerelease: true
+      description: CryptolibCPS
+  configurationVersion: 0.2.0

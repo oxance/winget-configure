@@ -8,5 +8,5 @@ properties:
         description: Install CryptolibCPS 
         allowPrerelease: true
       settings:
-        id: Oxance.CryptolibCPS.5.2.2
+        id: Oxance.CryptolibCPS
         source: oxance
